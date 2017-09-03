@@ -30,6 +30,10 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     charger_res_images
 
+# Encryption
+PRODUCT_PACKAGES += \
+    libcryptfs_hw
+
 # Fstab
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fstab.qcom:root/fstab.qcom
