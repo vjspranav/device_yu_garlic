@@ -354,7 +354,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp_policy/mediacodec.policy:system/vendor/etc/seccomp_policy/mediacodec.policy
 
 TARGET_LD_SHIM_LIBS += \
-    /system/bin/mm-qcamera-daemon|libshim_camera.so
+    /system/bin/mm-qcamera-daemon|libshim_camera.so \
+    /system/bin/gx_fpd|libshim_goodix.so
 
 # Thermal HAL
 PRODUCT_PACKAGES += \
