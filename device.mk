@@ -136,6 +136,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     camera.msm8937 \
     libshim_camera \
+    libshim_libmmcamera \
     Snap
 
 PRODUCT_COPY_FILES += \
@@ -357,6 +358,7 @@ PRODUCT_COPY_FILES += \
 
 TARGET_LD_SHIM_LIBS += \
     /system/bin/mm-qcamera-daemon|libshim_camera.so \
+    /system/vendor/lib/libmmcamera_ppeiscore.so|libshim_libmmcamera.so \
     /system/bin/gx_fpd|libshim_goodix.so
 
 # Thermal HAL
