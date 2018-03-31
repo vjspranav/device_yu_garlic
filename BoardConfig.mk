@@ -19,6 +19,8 @@ DEVICE_PATH := device/yu/garlic
 
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+TARGET_OTA_ASSERT_DEVICE := Yureka Black,garlic,yu5040
+
 TARGET_BOARD_VENDOR := yu
 
 ALLOW_MISSING_DEPENDENCIES := true
