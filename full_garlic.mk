@@ -38,8 +38,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fstab.qcom:root/fstab.qcom
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/kernel:kernel
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/twrp.fstab:recovery/root/etc/twrp.fstab
