@@ -18,7 +18,7 @@ LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_PROPRIETARY_MODULE := true
+LOCAL_PROPRIETARY_MODULE := false
 
 sourceFiles := \
                cryptfs_hw.c
@@ -34,6 +34,7 @@ commonIncludes := \
 LOCAL_C_INCLUDES := $(commonIncludes)
 LOCAL_SRC_FILES := $(sourceFiles)
 
+LOCAL_LDLIBS := -llog
 LOCAL_MODULE_TAGS       := optional
 LOCAL_MODULE:= libcryptfs_hw
 LOCAL_SHARED_LIBRARIES := $(commonSharedLibraries)
