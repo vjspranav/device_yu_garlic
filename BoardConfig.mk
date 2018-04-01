@@ -23,8 +23,6 @@ TARGET_OTA_ASSERT_DEVICE := Yureka Black,garlic,yu5040
 
 TARGET_BOARD_VENDOR := yu
 
-ALLOW_MISSING_DEPENDENCIES := true
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
