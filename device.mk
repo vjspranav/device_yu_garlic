@@ -124,6 +124,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/camera/p7201_s5k4h8_chromatix.xml:system/etc/camera/p7201_s5k4h8_chromatix.xml
 
 PRODUCT_PACKAGES += \
+    camera.msm8937 \
     android.hardware.camera.provider@2.4-impl-garlic \
     camera.device@3.2-impl
 
@@ -332,9 +333,6 @@ PRODUCT_COPY_FILES += \
 # Seccomp policy
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
-
-TARGET_LD_SHIM_LIBS += \
-    /system/vendor/lib/libmmcamera_ppeiscore.so|libshim_libmmcamera.so
 
 # Thermal HAL
 PRODUCT_PACKAGES += \
