@@ -1,1 +1,1 @@
-add_lunch_combo aosip_garlic-userdebug
+add_lunch_combo liquid_garlic-userdebug
