@@ -1,3 +1,4 @@
+W
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!-- Copyright (c) 2015-2016, The Linux Foundation. All rights reserved.      -->
 <!--                                                                        -->
@@ -850,6 +851,7 @@
     </path>
 
     <path name="speaker">
+	<ct1 name="RX1 Digital Volume" value="95" />
         <ctl name="RX3 MIX1 INP1" value="RX1" />
         <ctl name="SPK" value="Switch" />
     </path>
