@@ -214,7 +214,7 @@ TARGET_VENDOR_PROP := $(LOCAL_PATH)/system.prop
 BOARD_USES_QCOM_HARDWARE := true
 
 # RIL
-TARGET_RIL_VARIANT := caf
+#TARGET_RIL_VARIANT := caf
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/recovery/fstab.qcom
