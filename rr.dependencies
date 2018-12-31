@@ -1,0 +1,15 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "vjspranav/kernel_yu_msm8937",
+    "target_path": "kernel/yu/msm8937",
+    "branch":      "O-Stable-kernel.lnx.3.18.r33-rel"
+  },
+
+  {
+    "remote":      "github",
+    "repository":  "vjspranav/proprietary_vendor_yu",
+    "target_path": "vendor/yu/garlic",
+    "branch":      "pie"
+  }
+]
