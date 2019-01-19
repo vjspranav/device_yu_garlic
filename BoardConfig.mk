@@ -260,3 +260,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Prebuilt QTI
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
+
+# Disable qmi EAP-SIM security
+DISABLE_EAP_PROXY := true
