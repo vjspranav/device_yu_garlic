@@ -18,9 +18,9 @@
 $(call inherit-product, device/yu/garlic/full_garlic.mk)
 
 # Inherit some common AOSiP stuff.
-$(call inherit-product, vendor/stag/main.mk)
+$(call inherit-product, vendor/pa/main.mk)
 
-PRODUCT_NAME := stag_garlic
+PRODUCT_NAME := pa_garlic
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := garlic
 
