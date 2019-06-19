@@ -21,16 +21,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from tenshi device
 $(call inherit-product, device/yu/garlic/device.mk)
 
+
+# Get the prebuilt list of APNs
+$(call inherit-product, vendor/omni/config/gsm.mk)
+
 # Inherit from common device
 $(call inherit-product, device/tinno/msm8937-common/msm8937.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
+
+TARGET_BOOTANIMATION_SIZE := 1080p
+
+PRODUCT_PACKAGE_OVERLAYS += vendor/omni/overlay/CarrierConfig
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := garlic
-PRODUCT_NAME := lineage_garlic
+PRODUCT_NAME := omni_garlic
 PRODUCT_BRAND := yu
 PRODUCT_MODEL := YU Yureka Black
 PRODUCT_MANUFACTURER := yu
