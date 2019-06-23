@@ -1,0 +1,26 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "vjspranav/android_kernel_tinno_msm8937",
+    "target_path": "kernel/tinno/msm8937",
+    "branch":      "pie"
+  },
+  {
+    "remote":      "github",
+    "repository":  "vjspranav/proprietary_vendor_yu-1",
+    "target_path": "vendor/yu",
+    "branch":      "pie"
+  },
+  {
+    "remote":      "github",
+    "repository":  "vjspranav/proprietary_vendor_tinno",
+    "target_path": "vendor/tinno",
+    "branch":      "pie"
+  },
+  {
+    "remote":      "github",
+    "repository":  "vjspranav/device_tinno_msm8937-common",
+    "target_path": "device/tinno/msm8937-common",
+    "branch":      "pie"
+  }
+]
