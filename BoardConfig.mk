@@ -73,6 +73,7 @@ RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_EXCLUDE_SUPERSU := true
 TW_NEW_ION_HEAP := true
 TW_USE_TOOLBOX := true
+TW_IGNORE_MISC_WIPE_DATA := true
 
 # Disable Mouse Cursor
 TW_INPUT_BLACKLIST := "hbtp_vm"
