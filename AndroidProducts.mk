@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_garlic.mk
+    $(LOCAL_DIR)/stag_garlic.mk
