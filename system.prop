@@ -5,3 +5,7 @@ ro.vendor.qti.config.swap=false
 ro.vendor.qti.config.zram=false
 ro.cutoff_voltage_mv=3400
 ro.vendor.qti.sys.fw.bservice_enable=false
+
+# Device Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.bliss.maintainer=vjspranav
